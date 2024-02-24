@@ -1,0 +1,79 @@
+.control__container {
+    width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.control__hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control__image {
+    width: 100%;
+    height: 13.25rem;
+}
+
+
+.control__title {
+    align-self: flex-start;
+    font-weight: 600;
+    font-size: var(--font-size-large);
+    padding-inline: 6rem;
+}
+
+@media screen and (max-width:678px) {
+    .control__title {
+        align-self: center;
+    }
+}
+
+.control__section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-inline: 6rem;
+    gap: 2rem;
+}
+
+.control__items {
+    width: 16.375rem;
+    height: 16.375rem;
+    background-color: var(--color-bg-primary);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.control__items:hover {
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.55);
+}
+
+/*Al pasar el mouse por el control__items  afectamos a su hijo*/
+.control__items:hover .items__name,
+.control__items:hover .items__image {
+    transform: scale(1.04);
+}
+
+.items__image {
+    width: fit-content;
+    height: 8.75rem;
+}
+
+
+.items__name {
+    text-align: center;
+    font-weight: 700;
+    font-size: var(--font-size-medium);
+    line-height: 1.371rem;
+    transition: all ease-in-out .3s;
+}

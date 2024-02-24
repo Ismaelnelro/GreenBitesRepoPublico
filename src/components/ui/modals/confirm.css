@@ -1,0 +1,45 @@
+.confirm__modal {
+    width: 40.5rem;
+    max-width: 98%;
+    height: 20.688rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: var(--color-bg-primary);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 1.5rem;
+
+    z-index: 9999;
+
+}
+
+.confirm__modal-hidden {
+    display: none;
+}
+
+.confirm__close {
+    align-self: flex-end;
+    font-size: var(--font-size-large);
+    cursor: pointer;
+}
+
+.confirm__text {
+    font-weight: 600;
+    width: 22.938rem;
+    font-size: clamp( var(--font-size-midum) var(--font-size-large)  var(--font-size-large) );
+    text-align: center;
+}
+
+.confirm__button {
+    margin: 1rem;
+}

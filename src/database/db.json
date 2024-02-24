@@ -1,0 +1,146 @@
+{
+  "topSellers": [
+    {
+      "id": "1",
+      "name": "Nueces",
+      "image": "ruta/imagen1.jpg",
+      "price": 19.99,
+      "gramos": 101,
+      "description": "Nueces frescas y saludables, ideales para tus recetas favoritas. Disfruta de su sabor único y beneficios para la salud. Las nueces son una excelente fuente de ácidos grasos omega-3 y antioxidantes, contribuyendo a una dieta equilibrada y nutritiva.",
+      "topSeller": true
+    },
+    {
+      "id": "2",
+      "name": "Almendras",
+      "image": "ruta/imagen2.jpg",
+      "price": 29.99,
+      "gramos": 101,
+      "description": "Almendras crujientes y deliciosas, perfectas como snack o para agregar a tus platos. Fuente de energía y nutrientes esenciales. Las almendras son ricas en vitamina E y magnesio, ideales para una dieta equilibrada y saludable.",
+      "topSeller": true
+    },
+    {
+      "id": "3",
+      "name": "Avellanas",
+      "image": "ruta/imagen3.jpg",
+      "price": 39.99,
+      "gramos": 100,
+      "description": "Avellanas frescas y nutritivas, una opción saludable y llena de sabor para cualquier ocasión. Rico en antioxidantes y vitaminas esenciales para tu bienestar. Disfruta de las avellanas como un delicioso complemento en tu dieta diaria.",
+      "topSeller": true
+    },
+    {
+      "id": "4",
+      "name": "Cacahuetes",
+      "image": "ruta/imagen4.jpg",
+      "price": 49.99,
+      "gramos": 100,
+      "description": "Cacahuetes tostados y sabrosos, un clásico snack que nunca pasa de moda. Aporta proteínas y grasas saludables, siendo una excelente opción para satisfacer tus antojos. Los cacahuetes son un alimento versátil y delicioso.",
+      "topSeller": true
+    },
+    {
+      "id": "5",
+      "name": "Pistachos",
+      "image": "ruta/imagen5.jpg",
+      "price": 59.99,
+      "gramos": 100,
+      "description": "Pistachos crujientes y deliciosos, una excelente opción para disfrutar en cualquier momento del día. Beneficiosos para la salud cardiovascular, los pistachos son ricos en antioxidantes y grasas saludables. Disfruta de su sabor único y textura crujiente.",
+      "topSeller": true
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Nueces",
+      "image": "ruta/imagen1.jpg",
+      "price": 19.99,
+      "gramos": 100,
+      "description": "Nueces frescas y saludables, ideales para tus recetas favoritas. Disfruta de su sabor único y beneficios para la salud. Las nueces son una excelente fuente de ácidos grasos omega-3 y antioxidantes, contribuyendo a una dieta equilibrada y nutritiva.",
+      "topSeller": true
+    },
+    {
+      "id": "2",
+      "name": "Almendras",
+      "image": "ruta/imagen2.jpg",
+      "price": 29.99,
+      "gramos": 100,
+      "description": "Almendras crujientes y deliciosas, perfectas como snack o para agregar a tus platos. Fuente de energía y nutrientes esenciales. Las almendras son ricas en vitamina E y magnesio, ideales para una dieta equilibrada y saludable.",
+      "topSeller": true
+    },
+    {
+      "id": "3",
+      "name": "Avellanas",
+      "image": "ruta/imagen3.jpg",
+      "price": 39.99,
+      "gramos": 100,
+      "description": "Avellanas frescas y nutritivas, una opción saludable y llena de sabor para cualquier ocasión. Rico en antioxidantes y vitaminas esenciales para tu bienestar. Disfruta de las avellanas como un delicioso complemento en tu dieta diaria.",
+      "topSeller": true
+    },
+    {
+      "id": "4",
+      "name": "Cacahuetes",
+      "image": "ruta/imagen4.jpg",
+      "price": 49.99,
+      "gramos": 100,
+      "description": "Cacahuetes tostados y sabrosos, un clásico snack que nunca pasa de moda. Aporta proteínas y grasas saludables, siendo una excelente opción para satisfacer tus antojos. Los cacahuetes son un alimento versátil y delicioso.",
+      "topSeller": true
+    },
+    {
+      "id": "5",
+      "name": "Pistachos",
+      "image": "ruta/imagen5.jpg",
+      "price": 59.99,
+      "gramos": 100,
+      "description": "Pistachos crujientes y deliciosos, una excelente opción para disfrutar en cualquier momento del día. Beneficiosos para la salud cardiovascular, los pistachos son ricos en antioxidantes y grasas saludables. Disfruta de su sabor único y textura crujiente.",
+      "topSeller": true
+    },
+    {
+      "id": "6",
+      "name": "Anacardos",
+      "image": "ruta/imagen11.jpg",
+      "price": 119.99,
+      "gramos": 100,
+      "description": "Anacardos frescos y deliciosos, una alternativa saludable y sabrosa para tus platillos. Rico en nutrientes esenciales para una dieta equilibrada. Añade anacardos a tus recetas para darles un toque de sabor y textura.",
+      "topSeller": false
+    },
+    {
+      "id": "7",
+      "name": "Nueces de Brasil",
+      "image": "ruta/imagen12.jpg",
+      "price": 129.99,
+      "gramos": 100,
+      "description": "Nueces de Brasil crujientes y nutritivas, un complemento perfecto para tus snacks. Rico en ácidos grasos esenciales para la salud del corazón y el cerebro. Añade nueces de Brasil a tus recetas para un impulso nutricional.",
+      "topSeller": false
+    },
+    {
+      "id": "8",
+      "name": "Piñones",
+      "image": "ruta/imagen13.jpg",
+      "price": 139.99,
+      "gramos": 100,
+      "description": "Piñones frescos y deliciosos, ideales para realzar el sabor de tus platos favoritos. Fuente de energía y antioxidantes para una vida activa y saludable. Añade piñones a tus ensaladas y platos italianos para un toque de sabor.",
+      "topSeller": false
+    },
+    {
+      "id": "9",
+      "name": "Castañas",
+      "image": "ruta/imagen14.jpg",
+      "price": 149.99,
+      "gramos": 100,
+      "description": "Castañas tostadas y sabrosas, ideales para tus postres de temporada. Disfruta su sabor único y textura crujiente en recetas dulces y saladas. Las castañas son una delicia nutritiva para disfrutar en cualquier ocasión.",
+      "topSeller": false
+    },
+    {
+      "id": "10",
+      "name": "Macadamias",
+      "image": "ruta/imagen15.jpg",
+      "price": 159.99,
+      "gramos": 100,
+      "description": "Macadamias frescas y deliciosas, un excelente acompañamiento para tus platos favoritos. Rica en nutrientes esenciales para una vida saludable. Disfruta de las macadamias como un snack nutritivo o como ingrediente en tus recetas favoritas.",
+      "topSeller": false
+    }
+  ],
+  "auth": {
+    "isConnected": true,
+    "email": "admin@admin.com",
+    "password": "password123"
+  }
+}

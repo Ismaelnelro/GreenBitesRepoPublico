@@ -1,0 +1,12 @@
+.cart__container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cart__bag-icon{
+    font-size: var(--font-size-large);
+    cursor: pointer;
+    margin-right: 2rem;
+}

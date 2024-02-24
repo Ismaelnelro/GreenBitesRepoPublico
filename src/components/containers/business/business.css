@@ -1,0 +1,47 @@
+.business__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.business__steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.business__resell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--font-family-secondary);
+    line-height: 1.813rem;
+}
+
+.business__steps,
+.business__resell {
+    margin-bottom: 10rem;
+}
+
+.business__title {
+    font-size: var(--font-size-large);
+    font-weight: 600;
+}
+
+.business__subtitle {
+    font-size: var(--font-size-meddium);
+    font-weight: 300;
+    text-align: center;
+}
+
+.business__image:hover {
+    transform: scale(1.1);
+}

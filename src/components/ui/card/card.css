@@ -1,0 +1,133 @@
+.cards__container {
+    width: 100%;
+    min-height: 10rem;
+    height: 10rem;
+    background-color: var(--color-bg-primary);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+
+    display: grid;
+    grid-template-columns: 1fr 6fr 5fr;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem 0 1rem;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .cards__container {
+        height: 28rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 1rem;
+        overflow: hidden;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .cards__container {
+        grid-template-columns: 1fr 8fr 3fr;
+        overflow: hidden;
+        padding: 0 0.5rem;
+    }
+}
+
+
+.cards__section {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-self: flex-start;
+}
+
+@media screen and (max-width:768px) {
+    .cards__section {
+        gap: 1rem;
+    }
+}
+
+.cards__section.action {
+    justify-self: flex-end;
+}
+
+.cards__image {
+    width: 6.875rem;
+    height: 6.875rem;
+}
+
+.cards__icon {
+    font-size: var(--font-size-medium);
+}
+
+.cards__body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .cards__body {
+        justify-content: center;
+    }
+}
+
+.cards__title {
+    font-weight: 600;
+    font-size: var(--font-size-medium);
+    display: flex;
+    gap: .5rem;
+}
+
+
+.cards__quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity__button {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: #FFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.quantity__button.increment {
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.quantity__button.decrement {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.quantity__input {
+    width: 2.5rem;
+    height: 2rem;
+    font-size: var(--font-size-small);
+    text-align: center;
+    background-color: #FFF;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 0px transparent;
+    border-left: 0px transparent;
+
+}
+
+.cards__description {
+    font-weight: 400;
+    font-size: var(--font-size-base);
+}

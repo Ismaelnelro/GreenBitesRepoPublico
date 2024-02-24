@@ -1,0 +1,35 @@
+.about__container,
+.about__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+    font-family: var(--font-family-secondary);
+}
+
+
+.about__section {
+    width: 70%;
+}
+
+.about__image {
+    width: 100%;
+    height: auto;
+}
+
+.about__title {
+    font-weight: 500;
+    font-size: var(--font-size-title);
+
+}
+
+.about__subtitle {
+    font-weight: 400;
+    font-size: var(--font-size-large);
+    text-align: justify;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+

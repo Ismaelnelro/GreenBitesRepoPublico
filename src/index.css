@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+:root {
+
+    /* COLORS */
+    --color-bg-primary: #FFF;
+    --color-bg-secondary: #C4C754;
+    --color-bg-terthary: #FC5C9C;
+    --color-bg-fourth: #ee8eb4;
+    --color-text-primary: #000;
+    --color-text-secondary: #FFF;
+    --color-button-secondary: #FFF;
+    --color-error: #DD1717;
+
+    /* FONT */
+    --font-family-primary: 'Roboto', sans-serif;
+    --font-family-secondary: 'Inter', sans-serif;
+    --font-family-title: 'Diphylleia', sans-serif;
+
+    /* FONT SIZE */
+    --base-font: 16px;
+    --font-size-title : 2rem; /*32px*/
+    --font-size-large: 1.5rem; /*24px*/
+    --font-size-medium: 1.25rem;/*20px*/
+    --font-size-small: 1.125rem;/*18px*/
+    --font-size-base: 1rem;/*16px*/
+    --font-size-small: 0.8rem;/*13px*/
+
+
+
+    /* SPACING */
+    --spacing-16: 1rem;/*16px*/
+    --spacing-10: 0.625rem;/*10px*/
+
+
+    /*MAX WIDTH*/
+    --width-max: 90rem;
+    /* --width-max: 1400px; */
+
+
+}
+
+
+html{
+    font-family: var(--font-family-primary);
+    font-size: var(--base-font);
+}
+
+
+/*
+Tools
+
+angrytools.com/gradient/
+
+*/
